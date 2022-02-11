@@ -1,0 +1,10 @@
+name: Shell Commands
+on: [push]
+jobs: 
+  run-Shell-Command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo a string
+        run: echo "Aaaaa "
+
+
